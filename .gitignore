@@ -1,0 +1,9 @@
+# 11ty stuff
+node_modules/
+_site/
+
+# Editor config files
+.vscode
+
+# Environment variables
+.env

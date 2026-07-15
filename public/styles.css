@@ -1,0 +1,87 @@
+/* styles.css */
+
+
+/* Globals */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*:not(dialog) {
+  margin: 0;
+}
+* {
+  padding: 0;
+  border: none;
+}
+:root {
+  font-size: 112.5%;
+}
+html {
+  color-scheme: light dark;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+@media (prefers-reduced-motion: no-preference) {
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+}
+body {
+  min-block-size: 100svh;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  line-height: 1.5;
+  tab-size: 2;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+[disabled] {
+  cursor: not-allowed;
+}
+[hidden] {
+  display: none !important;
+}
+svg {
+  fill: currentColor;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+  line-height: 1.3;
+}
+p,
+li,
+dd {
+  text-wrap: pretty;
+}
+ul,
+ol {
+  list-style-position: inside;
+  list-style-type: none;
+}
+img,
+video,
+canvas,
+iframe {
+  display: block;
+  max-inline-size: 100%;
+  block-size: auto;
+  border: none;
+}
+img,
+canvas {
+  font-style: italic;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+/* Basics */
+body {
+  background: #00142f;
+  color: #eee;
+}
